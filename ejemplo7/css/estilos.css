@@ -1,0 +1,10 @@
+/*Ejemplo de Media Queries*/
+#encabezado {
+    background: lightgreen;
+    box-shadow: 3px 3px 3px red;
+}
+
+.titulo {
+    font-size: 70pt;
+    color: rgb(100, 100, 100);
+}

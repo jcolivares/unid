@@ -1,0 +1,19 @@
+/*Ejemplo de uso de fuentes*/
+
+.titulo {
+    font-family: 'Nosifer', cursive;
+    font-size: 5ex;
+    color: red;
+}
+
+.subtitulo{
+    font-family: 'Mukta', sans-serif;
+    text-decoration: line-through;
+}
+
+.otra {
+    font-family: "Unid";
+    background-color: black;
+    color: white;
+    font-size: 3.5em;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- html:5 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de JS</title>
+    <script>
+        function mostrar(){
+            var edad = prompt('dame tu edad?');
+        }
+    </script>
+
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header id="encabezado">
+       <h1 onmouseover="mostrar()" id="titulo" style="text-align: center;">Ejemplo de JS</h1>
+
+    </header>
+    <form method="get">
+        <label for="nombre" onclick="sumar()">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre">
+        <button type="button" onclick="alert('hola mundo');">Presioname</button>
+
+        <input type="date">
+    </form>
+    <script>
+        for(i=1;i<7;i++)
+            document.writeln("<h"+i+">hola mundo</h"+i+">");
+    </script>
+</body>
+</html>

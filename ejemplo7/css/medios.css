@@ -1,0 +1,18 @@
+/*Ejemplo de consulta de medios*/
+
+@media screen and (min-width: 600px) {
+    #contacto {
+        background-color: black;
+        color: white;
+        border: 5px dashed red;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px){
+    #contacto {
+        width: 60%;
+        background-color: yellow;
+        color: black;
+        border: 5px groove blue;
+    }
+}
